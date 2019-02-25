@@ -1,0 +1,75 @@
+body {
+  background-color: #222222;
+}
+
+.App {
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+}
+
+.App h1 {
+  color: #e5e5e5;
+  font-family: 'Indie Flower', cursive;
+  font-size: 40px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn {
+  background-color: black;
+  color: orange;
+  border: 1px solid orange;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.section-container {
+  margin: 30px auto;
+}
+
+.picked-color, .picked-name {
+  border: 1px solid black;
+  box-shadow: inset 3px 3px 3px rgba(0,0,0, 0.5);
+  text-shadow: 0 0 10px black;
+  margin: 20px auto 0 auto;
+  padding: 20px;
+}
+
+.picked-name {
+  background-color: white;
+}
