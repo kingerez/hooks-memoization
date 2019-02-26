@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import { ColorClicker } from './ColorClicker';
 import { randomizeColor, randomizeName } from '../utils';
